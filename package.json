@@ -8,7 +8,9 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "webpack --watch --mode=development"
+    "webpack": "webpack --watch --mode=development",
+    "start": "node app.js",
+    "server": "nodemon app.js"
   },
   "keywords": [],
   "author": "",
@@ -19,6 +21,7 @@
     "webpack": "^4.28.3"
   },
   "devDependencies": {
-    "nodemon": "^1.18.9"
+    "nodemon": "^1.18.9",
+    "webpack-cli": "^3.2.0"
   }
 }
