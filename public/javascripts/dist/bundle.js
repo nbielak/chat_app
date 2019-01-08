@@ -9846,7 +9846,6 @@ module.exports = yeast;
 
 document.addEventListener("DOMContentLoaded", () => {
     const socket = __webpack_require__(/*! socket.io-client */ "./node_modules/socket.io-client/lib/index.js");
-    console.log(socket);
 })
 
 /***/ }),
